@@ -8,3 +8,15 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
 -->
 
+<?php
+
+//phpinfo();
+
+$name = 'Joe';
+
+//echo($name);
+
+
+?>
+
+<h1>Hi, my name is <?php echo($name)   ?> </h1>
