@@ -14,9 +14,14 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
 $name = 'Joe';
 
+$length = strlen($name);
+
 //echo($name);
 
 
 ?>
 
-<h1>Hi, my name is <?php echo($name)   ?> </h1>
+<h1>Hi, my name is <?php echo($name)?> </h1>
+
+
+<p>The length of the string is: <?php echo($length)?> </p>
