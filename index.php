@@ -18,14 +18,16 @@ $length = strlen($name);
 
 $bannedword = $_GET['banned'];
 
-echo($bannedword)
+//echo($bannedword)
+
+$censored = str_replace($bannedword, '***',$name);
 
 //echo($name);
 
 
 ?>
 
-<h1>Hi, my name is <?php echo($name)?> </h1>
+<h1>Hi, my name is <?php echo($censored)?> </h1>
 
 
 <p>The length of the string is: <?php echo($length)?> </p>
