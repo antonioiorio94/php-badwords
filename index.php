@@ -12,9 +12,13 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
 //phpinfo();
 
-$name = 'Joe';
+$name = 'Joe Black';
 
 $length = strlen($name);
+
+$bannedword = $_GET['banned'];
+
+echo($bannedword)
 
 //echo($name);
 
